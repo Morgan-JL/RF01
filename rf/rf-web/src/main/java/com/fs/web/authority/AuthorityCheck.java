@@ -4,8 +4,8 @@ import com.fs.web.authority.annotation.MustGuest;
 import com.fs.web.authority.annotation.MustPermissions;
 import com.fs.web.authority.annotation.MustRoles;
 import com.fs.web.authority.annotation.MustUser;
-import com.lucky.utils.proxy.CglibProxy;
-import com.lucky.utils.reflect.AnnotationUtils;
+import com.fs.utils.proxy.CglibProxy;
+import com.fs.utils.reflect.AnnotationUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

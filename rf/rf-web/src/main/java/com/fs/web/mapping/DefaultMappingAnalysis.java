@@ -8,10 +8,10 @@ import com.fs.web.annotation.ResponseBody;
 import com.fs.web.annotation.RestController;
 import com.fs.web.enums.RequestMethod;
 import com.fs.web.enums.Rest;
-import com.lucky.framework.container.Module;
-import com.lucky.utils.base.Assert;
-import com.lucky.utils.reflect.AnnotationUtils;
-import com.lucky.utils.reflect.ClassUtils;
+import com.fs.framework.container.Module;
+import com.fs.utils.base.Assert;
+import com.fs.utils.reflect.AnnotationUtils;
+import com.fs.utils.reflect.ClassUtils;
 import com.lucky.web.annotation.*;
 
 import java.lang.annotation.Annotation;

@@ -1,7 +1,7 @@
 package com.fs.web.annotation;
 
-import com.lucky.framework.annotation.Component;
-import com.lucky.framework.annotation.Plugin;
+import com.fs.framework.annotation.Component;
+import com.fs.framework.annotation.Plugin;
 
 import java.lang.annotation.*;
 

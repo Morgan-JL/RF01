@@ -1,7 +1,7 @@
 package com.fs.web.beanfactory;
 
-import com.lucky.framework.annotation.Bean;
-import com.lucky.framework.annotation.Configuration;
+import com.fs.framework.annotation.Bean;
+import com.fs.framework.annotation.Configuration;
 
 /**
  * @author fk

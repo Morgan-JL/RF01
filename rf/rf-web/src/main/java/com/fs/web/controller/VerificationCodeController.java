@@ -2,7 +2,7 @@ package com.fs.web.controller;
 
 import com.fs.web.utils.ImagAndString;
 import com.fs.web.utils.VerificationCode;
-import com.lucky.utils.base.Assert;
+import com.fs.utils.base.Assert;
 
 import javax.imageio.ImageIO;
 import javax.servlet.http.HttpSession;

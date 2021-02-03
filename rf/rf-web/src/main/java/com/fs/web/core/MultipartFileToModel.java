@@ -1,9 +1,9 @@
 package com.fs.web.core;
 
 import com.fs.web.conf.WebConfig;
-import com.lucky.utils.base.Assert;
-import com.lucky.utils.proxy.ASMUtil;
-import com.lucky.utils.reflect.ParameterUtils;
+import com.fs.utils.base.Assert;
+import com.fs.utils.proxy.ASMUtil;
+import com.fs.utils.reflect.ParameterUtils;
 import com.fs.web.exception.FileSizeCrossingException;
 import com.fs.web.exception.RequestFileSizeCrossingException;
 import com.fs.web.webfile.MultipartFile;

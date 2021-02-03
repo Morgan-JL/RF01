@@ -22,8 +22,8 @@ lucky:
       allName: http://localhost:8080/getAllName
     #json序列化方案
     serialization:
-      xml : com.lucky.framework.serializable.implement.XtreamSerializationScheme
-      json: com.lucky.framework.serializable.implement.GsonSerializationScheme
+      xml : XtreamSerializationScheme
+      json: GsonSerializationScheme
     #重新定义转发与重定向
     response: DefaultLuckyResponse
     ###映射的预处理器

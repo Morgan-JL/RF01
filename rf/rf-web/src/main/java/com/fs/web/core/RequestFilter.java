@@ -1,7 +1,7 @@
 package com.fs.web.core;
 
 import com.fs.web.conf.WebConfig;
-import com.lucky.utils.file.Resources;
+import com.fs.utils.file.Resources;
 import com.fs.web.webfile.StaticResourceManage;
 import com.fs.web.webfile.WebFileUtils;
 import org.slf4j.Logger;

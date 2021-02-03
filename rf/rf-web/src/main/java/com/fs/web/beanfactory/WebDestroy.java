@@ -1,8 +1,8 @@
 package com.fs.web.beanfactory;
 
 import com.fs.web.mapping.UrlMappingCollection;
-import com.lucky.framework.AutoScanApplicationContext;
-import com.lucky.framework.container.factory.Destroy;
+import com.fs.framework.AutoScanApplicationContext;
+import com.fs.framework.container.factory.Destroy;
 
 /**
  * @author fk7075

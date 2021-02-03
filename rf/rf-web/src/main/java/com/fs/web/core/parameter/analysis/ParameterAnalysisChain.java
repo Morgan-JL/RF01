@@ -2,8 +2,8 @@ package com.fs.web.core.parameter.analysis;
 
 import com.fs.web.core.Model;
 import com.fs.web.core.parameter.enhance.ParameterEnhanceChain;
-import com.lucky.utils.proxy.ASMUtil;
-import com.lucky.utils.reflect.ParameterUtils;
+import com.fs.utils.proxy.ASMUtil;
+import com.fs.utils.reflect.ParameterUtils;
 import com.fs.web.mapping.UrlMapping;
 
 import java.lang.reflect.Parameter;

@@ -1,6 +1,6 @@
 package com.fs.web.authority;
 
-import com.lucky.utils.base.ArrayUtils;
+import com.fs.utils.base.ArrayUtils;
 
 import java.util.HashSet;
 import java.util.Set;

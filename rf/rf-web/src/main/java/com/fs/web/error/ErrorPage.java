@@ -1,9 +1,9 @@
 package com.fs.web.error;
 
 import com.fs.web.conf.WebConfig;
-import com.lucky.framework.exception.LuckyIOException;
-import com.lucky.utils.base.BaseUtils;
-import com.lucky.utils.file.Resources;
+import com.fs.framework.exception.LuckyIOException;
+import com.fs.utils.base.BaseUtils;
+import com.fs.utils.file.Resources;
 import org.apache.commons.io.IOUtils;
 
 import java.io.BufferedReader;

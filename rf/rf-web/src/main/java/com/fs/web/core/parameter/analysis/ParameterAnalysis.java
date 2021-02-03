@@ -1,8 +1,8 @@
 package com.fs.web.core.parameter.analysis;
 
 import com.fs.web.core.Model;
-import com.lucky.utils.reflect.Param;
-import com.lucky.utils.reflect.ParameterUtils;
+import com.fs.utils.reflect.Param;
+import com.fs.utils.reflect.ParameterUtils;
 
 import java.lang.reflect.Method;
 import java.lang.reflect.Parameter;

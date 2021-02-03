@@ -1,12 +1,12 @@
 package com.fs.web.conf;
 
-import com.lucky.framework.serializable.JSONSerializationScheme;
-import com.lucky.framework.serializable.XMLSerializationScheme;
-import com.lucky.utils.base.Assert;
-import com.lucky.utils.config.ConfigUtils;
-import com.lucky.utils.config.YamlConfAnalysis;
-import com.lucky.utils.conversion.JavaConversion;
-import com.lucky.utils.reflect.ClassUtils;
+import com.fs.framework.serializable.JSONSerializationScheme;
+import com.fs.framework.serializable.XMLSerializationScheme;
+import com.fs.utils.base.Assert;
+import com.fs.utils.config.ConfigUtils;
+import com.fs.utils.config.YamlConfAnalysis;
+import com.fs.utils.conversion.JavaConversion;
+import com.fs.utils.reflect.ClassUtils;
 import com.fs.web.core.LuckyResponse;
 import com.fs.web.core.MappingPreprocess;
 import com.fs.web.core.parameter.analysis.ParameterAnalysis;

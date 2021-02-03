@@ -1,7 +1,7 @@
 package com.fs.web.authority;
 
-import com.lucky.utils.base.ArrayUtils;
-import com.lucky.utils.base.Assert;
+import com.fs.utils.base.ArrayUtils;
+import com.fs.utils.base.Assert;
 
 import java.util.Set;
 

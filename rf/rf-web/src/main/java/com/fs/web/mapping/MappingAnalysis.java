@@ -9,7 +9,7 @@ import com.fs.web.annotation.PostMapping;
 import com.fs.web.annotation.PutMapping;
 import com.fs.web.annotation.RequestMapping;
 import com.fs.web.annotation.RestController;
-import com.lucky.framework.container.Module;
+import com.fs.framework.container.Module;
 import com.lucky.web.annotation.*;
 
 import java.lang.annotation.Annotation;

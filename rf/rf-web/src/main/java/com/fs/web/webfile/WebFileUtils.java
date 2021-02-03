@@ -1,7 +1,7 @@
 package com.fs.web.webfile;
 
 import com.fs.web.core.Model;
-import com.lucky.utils.file.FileUtils;
+import com.fs.utils.file.FileUtils;
 
 import javax.servlet.ServletOutputStream;
 import javax.servlet.http.HttpServletResponse;

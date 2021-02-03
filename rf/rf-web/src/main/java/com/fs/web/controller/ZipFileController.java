@@ -1,7 +1,7 @@
 package com.fs.web.controller;
 
 import com.fs.web.webfile.WebFileUtils;
-import com.lucky.utils.file.ZipUtils;
+import com.fs.utils.file.ZipUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

@@ -1,11 +1,11 @@
 package com.fs.web.core.parameter.analysis;
 
 import com.fs.web.core.Model;
-import com.lucky.framework.ApplicationContext;
-import com.lucky.framework.AutoScanApplicationContext;
-import com.lucky.utils.base.Assert;
-import com.lucky.utils.conversion.JavaConversion;
-import com.lucky.utils.reflect.ClassUtils;
+import com.fs.framework.ApplicationContext;
+import com.fs.framework.AutoScanApplicationContext;
+import com.fs.utils.base.Assert;
+import com.fs.utils.conversion.JavaConversion;
+import com.fs.utils.reflect.ClassUtils;
 import com.fs.web.annotation.RequestBody;
 
 import java.lang.reflect.Method;

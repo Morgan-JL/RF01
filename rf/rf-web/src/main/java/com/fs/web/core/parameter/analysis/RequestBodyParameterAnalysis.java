@@ -2,8 +2,8 @@ package com.fs.web.core.parameter.analysis;
 
 import com.fs.web.core.Model;
 import com.fs.web.core.parameter.ParameterAnalysisException;
-import com.lucky.utils.conversion.JavaConversion;
-import com.lucky.utils.file.FileUtils;
+import com.fs.utils.conversion.JavaConversion;
+import com.fs.utils.file.FileUtils;
 import com.fs.web.annotation.RequestBody;
 import org.apache.commons.fileupload.servlet.ServletRequestContext;
 

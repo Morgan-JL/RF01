@@ -1,9 +1,9 @@
 package com.fs.web.core;
 
-import com.lucky.framework.serializable.JSONSerializationScheme;
-import com.lucky.framework.serializable.XMLSerializationScheme;
-import com.lucky.utils.base.Assert;
-import com.lucky.utils.conversion.JavaConversion;
+import com.fs.framework.serializable.JSONSerializationScheme;
+import com.fs.framework.serializable.XMLSerializationScheme;
+import com.fs.utils.base.Assert;
+import com.fs.utils.conversion.JavaConversion;
 import com.fs.web.conf.WebConfig;
 import com.fs.web.enums.RequestMethod;
 import com.fs.web.error.ErrorPage;

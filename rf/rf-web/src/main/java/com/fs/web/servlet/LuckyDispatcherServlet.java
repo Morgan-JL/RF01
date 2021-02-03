@@ -3,7 +3,7 @@ package com.fs.web.servlet;
 import com.fs.web.core.Model;
 import com.fs.web.core.RequestFilter;
 import com.fs.web.enums.RequestMethod;
-import com.lucky.utils.base.Assert;
+import com.fs.utils.base.Assert;
 import com.fs.web.mapping.ExceptionMapping;
 import com.fs.web.mapping.UrlMapping;
 import org.slf4j.Logger;

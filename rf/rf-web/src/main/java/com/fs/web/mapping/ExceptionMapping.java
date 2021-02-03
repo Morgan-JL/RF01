@@ -2,8 +2,8 @@ package com.fs.web.mapping;
 
 import com.fs.web.core.Model;
 import com.fs.web.enums.Rest;
-import com.lucky.utils.base.Assert;
-import com.lucky.utils.reflect.MethodUtils;
+import com.fs.utils.base.Assert;
+import com.fs.utils.reflect.MethodUtils;
 import com.fs.web.exception.RepeatDefinitionExceptionHandlerException;
 import org.apache.http.HttpRequest;
 import org.apache.http.HttpResponse;

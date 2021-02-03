@@ -1,7 +1,7 @@
 package com.fs.web.core.parameter.analysis;
 
 import com.fs.web.core.Model;
-import com.lucky.utils.reflect.ClassUtils;
+import com.fs.utils.reflect.ClassUtils;
 
 import javax.servlet.ServletConfig;
 import javax.servlet.ServletContext;

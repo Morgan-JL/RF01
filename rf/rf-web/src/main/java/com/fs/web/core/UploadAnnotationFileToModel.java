@@ -1,9 +1,9 @@
 package com.fs.web.core;
 
 import com.fs.web.conf.WebConfig;
-import com.lucky.utils.base.Assert;
-import com.lucky.utils.base.BaseUtils;
-import com.lucky.utils.file.FileUtils;
+import com.fs.utils.base.Assert;
+import com.fs.utils.base.BaseUtils;
+import com.fs.utils.file.FileUtils;
 import com.fs.web.annotation.Upload;
 import com.fs.web.exception.FileSizeCrossingException;
 import com.fs.web.exception.FileTypeIllegalException;

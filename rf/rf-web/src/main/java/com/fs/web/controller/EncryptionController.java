@@ -1,6 +1,6 @@
 package com.fs.web.controller;
 
-import com.lucky.utils.dm5.MD5Utils;
+import com.fs.utils.dm5.MD5Utils;
 
 /**
  * 加密解密相关操作的Controller基类

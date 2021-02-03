@@ -1,7 +1,7 @@
 package com.fs.web.mapping;
 
-import com.lucky.utils.proxy.CglibProxy;
-import com.lucky.utils.reflect.AnnotationUtils;
+import com.fs.utils.proxy.CglibProxy;
+import com.fs.utils.reflect.AnnotationUtils;
 import com.fs.web.annotation.Description;
 
 import java.lang.reflect.Method;

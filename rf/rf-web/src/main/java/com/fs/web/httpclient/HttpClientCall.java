@@ -5,7 +5,7 @@ import com.fs.web.enums.RequestMethod;
 import com.fs.web.exception.HttpClientRequestException;
 import com.fs.web.exception.NotFindRequestException;
 import com.fs.web.webfile.MultipartFile;
-import com.lucky.utils.base.Assert;
+import com.fs.utils.base.Assert;
 import com.fs.web.httpclient.callcontroller.JSONObject;
 import org.apache.http.HttpEntity;
 import org.apache.http.HttpResponse;

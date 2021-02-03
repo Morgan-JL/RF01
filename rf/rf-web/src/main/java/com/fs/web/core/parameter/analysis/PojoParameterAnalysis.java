@@ -1,9 +1,9 @@
 package com.fs.web.core.parameter.analysis;
 
 import com.fs.web.core.Model;
-import com.lucky.utils.conversion.JavaConversion;
-import com.lucky.utils.reflect.ClassUtils;
-import com.lucky.utils.reflect.FieldUtils;
+import com.fs.utils.conversion.JavaConversion;
+import com.fs.utils.reflect.ClassUtils;
+import com.fs.utils.reflect.FieldUtils;
 import com.fs.web.annotation.RequestBody;
 import com.fs.web.webfile.MultipartFile;
 

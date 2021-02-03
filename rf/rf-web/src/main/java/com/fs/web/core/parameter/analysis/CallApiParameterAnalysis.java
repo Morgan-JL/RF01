@@ -1,7 +1,7 @@
 package com.fs.web.core.parameter.analysis;
 
 import com.fs.web.core.Model;
-import com.lucky.utils.reflect.AnnotationUtils;
+import com.fs.utils.reflect.AnnotationUtils;
 import com.fs.web.annotation.CallApi;
 import com.fs.web.annotation.CallBody;
 import com.fs.web.annotation.Controller;

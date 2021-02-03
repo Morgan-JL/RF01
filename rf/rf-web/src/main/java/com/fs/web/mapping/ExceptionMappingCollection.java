@@ -1,8 +1,8 @@
 package com.fs.web.mapping;
 
-import com.lucky.framework.scan.JarExpand;
-import com.lucky.utils.base.Assert;
-import com.lucky.utils.base.ExceptionUtils;
+import com.fs.framework.scan.JarExpand;
+import com.fs.utils.base.Assert;
+import com.fs.utils.base.ExceptionUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

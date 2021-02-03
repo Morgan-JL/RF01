@@ -1,7 +1,7 @@
 package com.fs.web.core.parameter.enhance;
 
-import com.lucky.utils.dm5.MD5Utils;
-import com.lucky.utils.reflect.AnnotationUtils;
+import com.fs.utils.dm5.MD5Utils;
+import com.fs.utils.reflect.AnnotationUtils;
 import com.fs.web.annotation.MD5;
 
 import java.lang.reflect.Parameter;

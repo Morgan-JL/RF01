@@ -1,8 +1,8 @@
 package com.fs.web.controller;
 
 import com.google.gson.reflect.TypeToken;
-import com.lucky.framework.serializable.implement.xml.LXML;
-import com.lucky.utils.serializable.json.LSON;
+import com.fs.framework.serializable.implement.xml.LXML;
+import com.fs.utils.serializable.json.LSON;
 
 import java.io.InputStream;
 import java.io.OutputStream;
