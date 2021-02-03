@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/rf" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/rf/rf-aop" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/rf/rf-boot" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/rf/rf-framework" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/rf/rf-junit" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/rf/rf-parent" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/rf/rf-utils" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/rf/rf-web" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/stxd" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/stxd/rf-aop" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/stxd/rf-boot" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/stxd/rf-framework" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/stxd/rf-junit" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/stxd/rf-parent" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/stxd/rf-web" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/stxd/stxd-utils" charset="UTF-8" />
+  </component>
+</project>

@@ -1,0 +1,1430 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="252cff70-6833-46c2-adc8-2345a11fa991" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/rf/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rf/rf-aop/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rf/rf-boot/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rf/rf-framework/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rf/rf-junit/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rf/rf-parent/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rf/rf-utils/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stxd/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stxd/rf-aop/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stxd/rf-aop/src/main/java/com/lucky/aop/annotation/After.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stxd/rf-aop/src/main/java/com/lucky/aop/annotation/AfterReturning.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stxd/rf-aop/src/main/java/com/lucky/aop/annotation/AfterThrowing.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stxd/rf-aop/src/main/java/com/lucky/aop/annotation/Around.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stxd/rf-aop/src/main/java/com/lucky/aop/annotation/Aspect.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stxd/rf-aop/src/main/java/com/lucky/aop/annotation/Before.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stxd/rf-aop/src/main/java/com/lucky/aop/annotation/Cacheable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stxd/rf-aop/src/main/java/com/lucky/aop/annotation/Expand.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stxd/rf-aop/src/main/java/com/lucky/aop/annotation/OperateLog.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stxd/rf-aop/src/main/java/com/lucky/aop/annotation/Param.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stxd/rf-aop/src/main/java/com/lucky/aop/annotation/Transaction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stxd/rf-aop/src/main/java/com/lucky/aop/beanfactory/LuckyAopAutoConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stxd/rf-aop/src/main/java/com/lucky/aop/beanfactory/LuckyAopBeanFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stxd/rf-aop/src/main/java/com/lucky/aop/conf/AopConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stxd/rf-aop/src/main/java/com/lucky/aop/core/AopChain.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stxd/rf-aop/src/main/java/com/lucky/aop/core/AopExecutionChecker.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stxd/rf-aop/src/main/java/com/lucky/aop/core/AopPoint.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stxd/rf-aop/src/main/java/com/lucky/aop/core/AopProxyFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stxd/rf-aop/src/main/java/com/lucky/aop/core/DefaultAopExecutionChecker.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stxd/rf-aop/src/main/java/com/lucky/aop/core/InjectionAopPoint.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stxd/rf-aop/src/main/java/com/lucky/aop/core/PointRun.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stxd/rf-aop/src/main/java/com/lucky/aop/core/PointRunFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stxd/rf-aop/src/main/java/com/lucky/aop/core/TargetMethodSignature.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stxd/rf-aop/src/main/java/com/lucky/aop/enums/Location.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stxd/rf-aop/src/main/java/com/lucky/aop/exception/AopExecuteException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stxd/rf-aop/src/main/java/com/lucky/aop/exception/AopParamsConfigurationException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stxd/rf-aop/src/main/java/com/lucky/aop/exception/PositionExpressionException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stxd/rf-aop/src/main/java/com/lucky/aop/exception/TransactionPerformException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stxd/rf-aop/src/main/java/com/lucky/aop/proxy/LuckyAopMethodInterceptor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stxd/rf-aop/src/main/resources/META-INF/jarexpands/aop_jarexpand_factory.lucky" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stxd/rf-aop/src/main/resources/META-INF/lucky.factories" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stxd/rf-boot/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stxd/rf-boot/src/main/java/com/lucky/boot/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stxd/rf-boot/src/main/java/com/lucky/boot/annotation/Import.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stxd/rf-boot/src/main/java/com/lucky/boot/annotation/LEndpoint.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stxd/rf-boot/src/main/java/com/lucky/boot/conf/ServerConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stxd/rf-boot/src/main/java/com/lucky/boot/conf/WrongWebComponentTypeException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stxd/rf-boot/src/main/java/com/lucky/boot/conf/YamlParsing.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stxd/rf-boot/src/main/java/com/lucky/boot/startup/EmbeddedTomcat.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stxd/rf-boot/src/main/java/com/lucky/boot/startup/LuckyApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stxd/rf-boot/src/main/java/com/lucky/boot/startup/LuckyBootServletContainerInitializer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stxd/rf-boot/src/main/java/com/lucky/boot/startup/LuckyServerApplicationConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stxd/rf-boot/src/main/java/com/lucky/boot/startup/RunParam.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stxd/rf-boot/src/main/java/com/lucky/boot/startup/ServletContainerInitializerController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stxd/rf-boot/src/main/java/com/lucky/boot/stopup/LuckyShutdown.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stxd/rf-boot/src/main/java/com/lucky/boot/web/FilterMapping.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stxd/rf-boot/src/main/java/com/lucky/boot/web/ListenerMapping.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stxd/rf-boot/src/main/java/com/lucky/boot/web/ServletMapping.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stxd/rf-boot/src/main/java/com/lucky/boot/web/WebMapping.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stxd/rf-boot/src/main/resources/META-INF/services/javax.servlet.ServletContainerInitializer" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stxd/rf-boot/src/main/resources/conf/application-server-temp.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stxd/rf-framework/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stxd/rf-framework/src/main/java/com/lucky/framework/ApplicationContext.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stxd/rf-framework/src/main/java/com/lucky/framework/AutoScanApplicationContext.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stxd/rf-framework/src/main/java/com/lucky/framework/annotation/Autowired.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stxd/rf-framework/src/main/java/com/lucky/framework/annotation/Bean.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stxd/rf-framework/src/main/java/com/lucky/framework/annotation/Component.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stxd/rf-framework/src/main/java/com/lucky/framework/annotation/Configuration.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stxd/rf-framework/src/main/java/com/lucky/framework/annotation/LuckyBootApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stxd/rf-framework/src/main/java/com/lucky/framework/annotation/Plugin.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stxd/rf-framework/src/main/java/com/lucky/framework/annotation/Repository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stxd/rf-framework/src/main/java/com/lucky/framework/annotation/Service.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stxd/rf-framework/src/main/java/com/lucky/framework/confanalysis/IniConfAnalysis.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stxd/rf-framework/src/main/java/com/lucky/framework/confanalysis/LuckyConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stxd/rf-framework/src/main/java/com/lucky/framework/confanalysis/PropertyConfAnalysis.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stxd/rf-framework/src/main/java/com/lucky/framework/confanalysis/XmlConfAnalysis.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stxd/rf-framework/src/main/java/com/lucky/framework/container/AutoInjection.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stxd/rf-framework/src/main/java/com/lucky/framework/container/FusionStrategy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stxd/rf-framework/src/main/java/com/lucky/framework/container/Injection.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stxd/rf-framework/src/main/java/com/lucky/framework/container/Module.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stxd/rf-framework/src/main/java/com/lucky/framework/container/RegisterMachine.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stxd/rf-framework/src/main/java/com/lucky/framework/container/SingletonContainer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stxd/rf-framework/src/main/java/com/lucky/framework/container/enums/Strategy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stxd/rf-framework/src/main/java/com/lucky/framework/container/factory/AopBeanFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stxd/rf-framework/src/main/java/com/lucky/framework/container/factory/AutomaticClassesInjection.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stxd/rf-framework/src/main/java/com/lucky/framework/container/factory/BeanFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stxd/rf-framework/src/main/java/com/lucky/framework/container/factory/BeanNamer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stxd/rf-framework/src/main/java/com/lucky/framework/container/factory/ConfigurationBeanFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stxd/rf-framework/src/main/java/com/lucky/framework/container/factory/Destroy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stxd/rf-framework/src/main/java/com/lucky/framework/container/factory/IOCBeanFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stxd/rf-framework/src/main/java/com/lucky/framework/container/factory/Namer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stxd/rf-framework/src/main/java/com/lucky/framework/exception/AddJarExpandException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stxd/rf-framework/src/main/java/com/lucky/framework/exception/AutowiredException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stxd/rf-framework/src/main/java/com/lucky/framework/exception/LuckyBeanCreateException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stxd/rf-framework/src/main/java/com/lucky/framework/exception/LuckyConversionTypeErrorException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stxd/rf-framework/src/main/java/com/lucky/framework/exception/LuckyIOException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stxd/rf-framework/src/main/java/com/lucky/framework/scan/JarExpand.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stxd/rf-framework/src/main/java/com/lucky/framework/scan/JarExpandChecklist.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stxd/rf-framework/src/main/java/com/lucky/framework/scan/JarScan.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stxd/rf-framework/src/main/java/com/lucky/framework/scan/JarScanException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stxd/rf-framework/src/main/java/com/lucky/framework/scan/LuckyClassLoader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stxd/rf-framework/src/main/java/com/lucky/framework/scan/LuckyURLClassLoader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stxd/rf-framework/src/main/java/com/lucky/framework/scan/PackageScan.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stxd/rf-framework/src/main/java/com/lucky/framework/scan/Scan.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stxd/rf-framework/src/main/java/com/lucky/framework/scan/ScanFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stxd/rf-framework/src/main/java/com/lucky/framework/scan/SpareComponents.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stxd/rf-framework/src/main/java/com/lucky/framework/serializable/JSONSerializationScheme.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stxd/rf-framework/src/main/java/com/lucky/framework/serializable/SerializationScheme.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stxd/rf-framework/src/main/java/com/lucky/framework/serializable/XMLSerializationScheme.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stxd/rf-framework/src/main/java/com/lucky/framework/serializable/implement/GsonSerializationScheme.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stxd/rf-framework/src/main/java/com/lucky/framework/serializable/implement/JDKSerializationScheme.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stxd/rf-framework/src/main/java/com/lucky/framework/serializable/implement/XtreamSerializationScheme.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stxd/rf-framework/src/main/java/com/lucky/framework/serializable/implement/xml/LXML.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stxd/rf-framework/src/main/java/com/lucky/framework/serializable/implement/xml/XStreamAllowType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stxd/rf-framework/src/main/java/com/lucky/framework/spi/LuckyFactoryLoader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stxd/rf-framework/src/main/java/com/lucky/framework/spi/LuckyServiceLoader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stxd/rf-framework/src/main/java/com/lucky/framework/welcome/JackLamb.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stxd/rf-framework/src/main/java/com/lucky/framework/welcome/Version.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stxd/rf-framework/src/main/resources/log4j2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stxd/rf-framework/src/main/resources/lucky-framework/META-INF.jarexpand.beanfactories.lucky" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stxd/rf-framework/src/main/resources/lucky-framework/application-test.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stxd/rf-framework/src/main/resources/lucky-framework/lucky.luck" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stxd/rf-framework/src/main/resources/lucky-framework/version.v" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stxd/rf-junit/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stxd/rf-junit/src/main/java/com/lucky/junit/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stxd/rf-junit/src/main/java/com/lucky/junit/annotation/LuckyBootTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stxd/rf-junit/src/main/java/com/lucky/junit/annotation/LuckyBootTransactionTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stxd/rf-junit/src/main/java/com/lucky/junit/annotation/TransactionTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stxd/rf-junit/src/main/java/com/lucky/junit/core/LuckyExtension.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stxd/rf-junit/src/main/java/com/lucky/junit/core/LuckyJUnit4ClassRunner.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stxd/rf-junit/src/main/java/com/lucky/junit/core/LuckyRunner.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stxd/rf-parent/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stxd/rf-parent/src/main/java/com/lucky/jacklamb/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stxd/rf-web/src/main/java/com/lucky/web/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stxd/rf-web/src/main/java/com/lucky/web/annotation/CallApi.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stxd/rf-web/src/main/java/com/lucky/web/annotation/CallBody.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stxd/rf-web/src/main/java/com/lucky/web/annotation/CallController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stxd/rf-web/src/main/java/com/lucky/web/annotation/Check.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stxd/rf-web/src/main/java/com/lucky/web/annotation/CloseRun.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stxd/rf-web/src/main/java/com/lucky/web/annotation/Controller.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stxd/rf-web/src/main/java/com/lucky/web/annotation/ControllerAdvice.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stxd/rf-web/src/main/java/com/lucky/web/annotation/CrossOrigin.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stxd/rf-web/src/main/java/com/lucky/web/annotation/DeleteMapping.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stxd/rf-web/src/main/java/com/lucky/web/annotation/Description.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stxd/rf-web/src/main/java/com/lucky/web/annotation/Download.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stxd/rf-web/src/main/java/com/lucky/web/annotation/Escape.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stxd/rf-web/src/main/java/com/lucky/web/annotation/ExceptionHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stxd/rf-web/src/main/java/com/lucky/web/annotation/FileDownload.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stxd/rf-web/src/main/java/com/lucky/web/annotation/FileUpload.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stxd/rf-web/src/main/java/com/lucky/web/annotation/GetMapping.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stxd/rf-web/src/main/java/com/lucky/web/annotation/InitRun.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stxd/rf-web/src/main/java/com/lucky/web/annotation/MD5.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stxd/rf-web/src/main/java/com/lucky/web/annotation/PostMapping.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stxd/rf-web/src/main/java/com/lucky/web/annotation/PutMapping.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stxd/rf-web/src/main/java/com/lucky/web/annotation/RequestBody.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stxd/rf-web/src/main/java/com/lucky/web/annotation/RequestMapping.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stxd/rf-web/src/main/java/com/lucky/web/annotation/ResponseBody.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stxd/rf-web/src/main/java/com/lucky/web/annotation/RestController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stxd/rf-web/src/main/java/com/lucky/web/annotation/Upload.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stxd/rf-web/src/main/java/com/lucky/web/authority/AuthorityCheck.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stxd/rf-web/src/main/java/com/lucky/web/authority/AuthorityInitializeException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stxd/rf-web/src/main/java/com/lucky/web/authority/Logical.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stxd/rf-web/src/main/java/com/lucky/web/authority/Permissions.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stxd/rf-web/src/main/java/com/lucky/web/authority/Role.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stxd/rf-web/src/main/java/com/lucky/web/authority/RoleAndPermissions.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stxd/rf-web/src/main/java/com/lucky/web/authority/UserInformation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stxd/rf-web/src/main/java/com/lucky/web/authority/UserInformationManage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stxd/rf-web/src/main/java/com/lucky/web/authority/annotation/MustGuest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stxd/rf-web/src/main/java/com/lucky/web/authority/annotation/MustPermissions.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stxd/rf-web/src/main/java/com/lucky/web/authority/annotation/MustRoles.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stxd/rf-web/src/main/java/com/lucky/web/authority/annotation/MustUser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stxd/rf-web/src/main/java/com/lucky/web/beanfactory/LuckyWebAutoConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stxd/rf-web/src/main/java/com/lucky/web/beanfactory/LuckyWebBeanFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stxd/rf-web/src/main/java/com/lucky/web/beanfactory/WebDestroy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stxd/rf-web/src/main/java/com/lucky/web/conf/WebConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stxd/rf-web/src/main/java/com/lucky/web/conf/YamlParsing.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stxd/rf-web/src/main/java/com/lucky/web/controller/EncryptionController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stxd/rf-web/src/main/java/com/lucky/web/controller/FileController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stxd/rf-web/src/main/java/com/lucky/web/controller/JarExpandController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stxd/rf-web/src/main/java/com/lucky/web/controller/JarExpandDetailsController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stxd/rf-web/src/main/java/com/lucky/web/controller/LuckyController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stxd/rf-web/src/main/java/com/lucky/web/controller/SerializationController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stxd/rf-web/src/main/java/com/lucky/web/controller/VerificationCodeController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stxd/rf-web/src/main/java/com/lucky/web/controller/ZipFileController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stxd/rf-web/src/main/java/com/lucky/web/core/DefaultLuckyResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stxd/rf-web/src/main/java/com/lucky/web/core/DefaultMappingPreprocess.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stxd/rf-web/src/main/java/com/lucky/web/core/LuckyResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stxd/rf-web/src/main/java/com/lucky/web/core/MappingPreprocess.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stxd/rf-web/src/main/java/com/lucky/web/core/Model.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stxd/rf-web/src/main/java/com/lucky/web/core/MultipartFileGain.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stxd/rf-web/src/main/java/com/lucky/web/core/MultipartFileToModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stxd/rf-web/src/main/java/com/lucky/web/core/RequestFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stxd/rf-web/src/main/java/com/lucky/web/core/UploadAnnotationFileToModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stxd/rf-web/src/main/java/com/lucky/web/core/WebContext.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stxd/rf-web/src/main/java/com/lucky/web/core/parameter/ParameterAnalysisException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stxd/rf-web/src/main/java/com/lucky/web/core/parameter/analysis/BaseParameterAnalysis.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stxd/rf-web/src/main/java/com/lucky/web/core/parameter/analysis/CallApiParameterAnalysis.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stxd/rf-web/src/main/java/com/lucky/web/core/parameter/analysis/FileParameterAnalysis.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stxd/rf-web/src/main/java/com/lucky/web/core/parameter/analysis/HttpParameterAnalysis.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stxd/rf-web/src/main/java/com/lucky/web/core/parameter/analysis/MultipartFileParameterAnalysis.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stxd/rf-web/src/main/java/com/lucky/web/core/parameter/analysis/ParameterAnalysis.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stxd/rf-web/src/main/java/com/lucky/web/core/parameter/analysis/ParameterAnalysisChain.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stxd/rf-web/src/main/java/com/lucky/web/core/parameter/analysis/PojoParameterAnalysis.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stxd/rf-web/src/main/java/com/lucky/web/core/parameter/analysis/RequestBodyParameterAnalysis.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stxd/rf-web/src/main/java/com/lucky/web/core/parameter/analysis/UploadAnnFileParameterAnalysis.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stxd/rf-web/src/main/java/com/lucky/web/core/parameter/enhance/ParameterCheckEnhance.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stxd/rf-web/src/main/java/com/lucky/web/core/parameter/enhance/ParameterEnhance.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stxd/rf-web/src/main/java/com/lucky/web/core/parameter/enhance/ParameterEnhanceChain.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stxd/rf-web/src/main/java/com/lucky/web/core/parameter/enhance/ParameterEscapeEnhance.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stxd/rf-web/src/main/java/com/lucky/web/core/parameter/enhance/ParameterMD5EncryptEnhance.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stxd/rf-web/src/main/java/com/lucky/web/enums/EscapeString.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stxd/rf-web/src/main/java/com/lucky/web/enums/EscapeType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stxd/rf-web/src/main/java/com/lucky/web/enums/RequestMethod.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stxd/rf-web/src/main/java/com/lucky/web/enums/Rest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stxd/rf-web/src/main/java/com/lucky/web/error/ErrorPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stxd/rf-web/src/main/java/com/lucky/web/exception/AddMappingExpandException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stxd/rf-web/src/main/java/com/lucky/web/exception/CloseRunException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stxd/rf-web/src/main/java/com/lucky/web/exception/ControllerParameterCheckException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stxd/rf-web/src/main/java/com/lucky/web/exception/FileSizeCrossingException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stxd/rf-web/src/main/java/com/lucky/web/exception/FileTypeIllegalException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stxd/rf-web/src/main/java/com/lucky/web/exception/HttpClientRequestException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stxd/rf-web/src/main/java/com/lucky/web/exception/InitRunException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stxd/rf-web/src/main/java/com/lucky/web/exception/JsonConversionException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stxd/rf-web/src/main/java/com/lucky/web/exception/NotFindRequestException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stxd/rf-web/src/main/java/com/lucky/web/exception/NotFoundCallUrlException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stxd/rf-web/src/main/java/com/lucky/web/exception/NotMappingMethodException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stxd/rf-web/src/main/java/com/lucky/web/exception/RealPathNotFoundException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stxd/rf-web/src/main/java/com/lucky/web/exception/RepeatDefinitionExceptionHandlerException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stxd/rf-web/src/main/java/com/lucky/web/exception/RepeatUrlMappingException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stxd/rf-web/src/main/java/com/lucky/web/exception/RequestFileSizeCrossingException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stxd/rf-web/src/main/java/com/lucky/web/filter/LuckyJumpFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stxd/rf-web/src/main/java/com/lucky/web/filter/SensitiveCharactersFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stxd/rf-web/src/main/java/com/lucky/web/httpclient/HttpClientCall.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stxd/rf-web/src/main/java/com/lucky/web/httpclient/IContentType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stxd/rf-web/src/main/java/com/lucky/web/httpclient/Type.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stxd/rf-web/src/main/java/com/lucky/web/httpclient/callcontroller/Api.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stxd/rf-web/src/main/java/com/lucky/web/httpclient/callcontroller/CallControllerMethodInterceptor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stxd/rf-web/src/main/java/com/lucky/web/httpclient/callcontroller/CallControllerProxy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stxd/rf-web/src/main/java/com/lucky/web/httpclient/callcontroller/EmptyCallApiException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stxd/rf-web/src/main/java/com/lucky/web/httpclient/callcontroller/JSONObject.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stxd/rf-web/src/main/java/com/lucky/web/httpclient/callcontroller/MappingDetails.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stxd/rf-web/src/main/java/com/lucky/web/initializer/LuckyDispatcherServletInitializer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stxd/rf-web/src/main/java/com/lucky/web/initializer/LuckyServletContainerInitializer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stxd/rf-web/src/main/java/com/lucky/web/initializer/WebApplicationInitializer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stxd/rf-web/src/main/java/com/lucky/web/mapping/DefaultMappingAnalysis.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stxd/rf-web/src/main/java/com/lucky/web/mapping/ExceptionMapping.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stxd/rf-web/src/main/java/com/lucky/web/mapping/ExceptionMappingCollection.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stxd/rf-web/src/main/java/com/lucky/web/mapping/Mapping.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stxd/rf-web/src/main/java/com/lucky/web/mapping/MappingAnalysis.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stxd/rf-web/src/main/java/com/lucky/web/mapping/MappingDescription.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stxd/rf-web/src/main/java/com/lucky/web/mapping/UrlMapping.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stxd/rf-web/src/main/java/com/lucky/web/mapping/UrlMappingCollection.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stxd/rf-web/src/main/java/com/lucky/web/servlet/BaseServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stxd/rf-web/src/main/java/com/lucky/web/servlet/LuckyDispatcherServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stxd/rf-web/src/main/java/com/lucky/web/utils/ImagAndString.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stxd/rf-web/src/main/java/com/lucky/web/utils/IpUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stxd/rf-web/src/main/java/com/lucky/web/utils/VerificationCode.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stxd/rf-web/src/main/java/com/lucky/web/webfile/MultipartFile.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stxd/rf-web/src/main/java/com/lucky/web/webfile/StaticResourceManage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stxd/rf-web/src/main/java/com/lucky/web/webfile/WebFileUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stxd/rf-web/src/main/resources/META-INF/jarexpands/web_jarexpand_factory.lucky" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stxd/rf-web/src/main/resources/META-INF/lucky.factories" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stxd/rf-web/src/main/resources/META-INF/services/javax.servlet.ServletContainerInitializer" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stxd/rf-web/src/main/resources/lucky-web/404.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stxd/rf-web/src/main/resources/lucky-web/500.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stxd/rf-web/src/main/resources/lucky-web/LUCKY.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stxd/rf-web/src/main/resources/lucky-web/application-web-temp.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stxd/rf-web/src/main/resources/lucky-web/content-type.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stxd/rf-web/src/main/resources/lucky-web/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stxd/stxd-utils/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stxd/stxd-utils/src/main/java/com/lucky/utils/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stxd/stxd-utils/src/main/java/com/lucky/utils/base/ArrayUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stxd/stxd-utils/src/main/java/com/lucky/utils/base/Assert.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stxd/stxd-utils/src/main/java/com/lucky/utils/base/BaseUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stxd/stxd-utils/src/main/java/com/lucky/utils/base/BeanUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stxd/stxd-utils/src/main/java/com/lucky/utils/base/Console.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stxd/stxd-utils/src/main/java/com/lucky/utils/base/ExceptionUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stxd/stxd-utils/src/main/java/com/lucky/utils/base/ObjectUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stxd/stxd-utils/src/main/java/com/lucky/utils/base/StreamUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stxd/stxd-utils/src/main/java/com/lucky/utils/base/StringUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stxd/stxd-utils/src/main/java/com/lucky/utils/base64/Base64Utils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stxd/stxd-utils/src/main/java/com/lucky/utils/config/ConfAnalysis.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stxd/stxd-utils/src/main/java/com/lucky/utils/config/ConfigUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stxd/stxd-utils/src/main/java/com/lucky/utils/config/Filter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stxd/stxd-utils/src/main/java/com/lucky/utils/config/MapConfigAnalysis.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stxd/stxd-utils/src/main/java/com/lucky/utils/config/MapConfigAnalysisException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stxd/stxd-utils/src/main/java/com/lucky/utils/config/Value.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stxd/stxd-utils/src/main/java/com/lucky/utils/config/YamlConfAnalysis.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stxd/stxd-utils/src/main/java/com/lucky/utils/conversion/$Expression.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stxd/stxd-utils/src/main/java/com/lucky/utils/conversion/EntityAndDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stxd/stxd-utils/src/main/java/com/lucky/utils/conversion/ExpressionEngine.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stxd/stxd-utils/src/main/java/com/lucky/utils/conversion/ExpressionParsingException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stxd/stxd-utils/src/main/java/com/lucky/utils/conversion/JavaConversion.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stxd/stxd-utils/src/main/java/com/lucky/utils/conversion/LuckyConversion.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stxd/stxd-utils/src/main/java/com/lucky/utils/conversion/annotation/Conversion.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stxd/stxd-utils/src/main/java/com/lucky/utils/conversion/annotation/Mapping.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stxd/stxd-utils/src/main/java/com/lucky/utils/conversion/annotation/Mappings.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stxd/stxd-utils/src/main/java/com/lucky/utils/conversion/annotation/NoConversion.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stxd/stxd-utils/src/main/java/com/lucky/utils/conversion/proxy/Conversion.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stxd/stxd-utils/src/main/java/com/lucky/utils/conversion/proxy/ConversionMethodInterceptor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stxd/stxd-utils/src/main/java/com/lucky/utils/conversion/proxy/ConversionProxy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stxd/stxd-utils/src/main/java/com/lucky/utils/conversion/proxy/EDProxy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stxd/stxd-utils/src/main/java/com/lucky/utils/dm5/MD5Utils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stxd/stxd-utils/src/main/java/com/lucky/utils/exception/ClasspathFileLoadException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stxd/stxd-utils/src/main/java/com/lucky/utils/exception/LuckyReflectionException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stxd/stxd-utils/src/main/java/com/lucky/utils/file/FileUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stxd/stxd-utils/src/main/java/com/lucky/utils/file/LuckyFile.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stxd/stxd-utils/src/main/java/com/lucky/utils/file/Resources.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stxd/stxd-utils/src/main/java/com/lucky/utils/file/ZipUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stxd/stxd-utils/src/main/java/com/lucky/utils/proxy/ASMUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stxd/stxd-utils/src/main/java/com/lucky/utils/proxy/CglibProxy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stxd/stxd-utils/src/main/java/com/lucky/utils/proxy/JDKProxy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stxd/stxd-utils/src/main/java/com/lucky/utils/proxy/LuckyNamingPolicy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stxd/stxd-utils/src/main/java/com/lucky/utils/reflect/AnnotationParsingException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stxd/stxd-utils/src/main/java/com/lucky/utils/reflect/AnnotationUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stxd/stxd-utils/src/main/java/com/lucky/utils/reflect/ClassUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stxd/stxd-utils/src/main/java/com/lucky/utils/reflect/Cover.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stxd/stxd-utils/src/main/java/com/lucky/utils/reflect/FieldUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stxd/stxd-utils/src/main/java/com/lucky/utils/reflect/MethodUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stxd/stxd-utils/src/main/java/com/lucky/utils/reflect/Param.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stxd/stxd-utils/src/main/java/com/lucky/utils/reflect/ParameterUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stxd/stxd-utils/src/main/java/com/lucky/utils/regula/Regular.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stxd/stxd-utils/src/main/java/com/lucky/utils/serializable/json/LSON.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stxd/stxd-web/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/rf/rf-web/pom.xml" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/stxd/stxd-framework/target/" />
+    <ignored path="$PROJECT_DIR$/stxd/stxd-web/target/" />
+    <ignored path="$PROJECT_DIR$/stxd/stxd-boot/target/" />
+    <ignored path="$PROJECT_DIR$/stxd/stxd-utils/target/" />
+    <ignored path="$PROJECT_DIR$/stxd/stxd-parent/target/" />
+    <ignored path="$PROJECT_DIR$/stxd/stxd-aop/target/" />
+    <ignored path="$PROJECT_DIR$/stxd/target/" />
+    <ignored path="$PROJECT_DIR$/stxd/stxd-junit/target/" />
+    <ignored path="$PROJECT_DIR$/rf/target/" />
+    <ignored path="$PROJECT_DIR$/rf/rf-aop/target/" />
+    <ignored path="$PROJECT_DIR$/rf/rf-boot/target/" />
+    <ignored path="$PROJECT_DIR$/rf/rf-framework/target/" />
+    <ignored path="$PROJECT_DIR$/rf/rf-junit/target/" />
+    <ignored path="$PROJECT_DIR$/rf/rf-utils/target/" />
+    <ignored path="$PROJECT_DIR$/rf/rf-parent/target/" />
+    <ignored path="$PROJECT_DIR$/rf/rf-web/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="delegatedBuild" value="true" />
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="base_framework" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/rf/pom.xml">
+          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="144">
+              <caret line="4" column="38" selection-start-line="4" selection-start-column="38" selection-end-line="4" selection-end-column="38" />
+              <folding>
+                <element signature="n#modules#0;n#project#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/rf/rf-parent/pom.xml">
+          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="397">
+              <caret line="46" column="21" selection-start-line="46" selection-start-column="21" selection-end-line="46" selection-end-column="21" />
+              <folding>
+                <element signature="n#parent#0;n#project#0;n#!!top" expanded="true" />
+                <element signature="n#properties#0;n#project#0;n#!!top" expanded="true" />
+                <element signature="n#dependency#0;n#dependencies#0;n#project#0;n#!!top" expanded="true" />
+                <element signature="n#dependency#1;n#dependencies#0;n#project#0;n#!!top" expanded="true" />
+                <element signature="n#dependency#2;n#dependencies#0;n#project#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/rf/rf-aop/pom.xml">
+          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="504">
+              <caret line="21" column="29" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
+              <folding>
+                <element signature="n#parent#0;n#project#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/rf/rf-web/pom.xml">
+          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="540">
+              <caret line="38" column="19" selection-start-line="38" selection-start-column="19" selection-end-line="38" selection-end-column="19" />
+              <folding>
+                <element signature="n#parent#0;n#project#0;n#!!top" expanded="true" />
+                <element signature="n#dependency#0;n#dependencies#0;n#project#0;n#!!top" expanded="true" />
+                <element signature="n#dependency#3;n#dependencies#0;n#project#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/rf/rf-framework/pom.xml">
+          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-420">
+              <caret line="7" column="33" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
+              <folding>
+                <element signature="n#dependencies#0;n#project#0;n#!!top" expanded="true" />
+                <element signature="n#dependency#0;n#dependencies#0;n#project#0;n#!!top" expanded="true" />
+                <element signature="n#dependency#1;n#dependencies#0;n#project#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/rf/rf-junit/pom.xml">
+          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-233">
+              <caret line="35" column="33" selection-start-line="35" selection-start-column="33" selection-end-line="35" selection-end-column="33" />
+              <folding>
+                <element signature="n#parent#0;n#project#0;n#!!top" expanded="true" />
+                <element signature="n#dependency#0;n#dependencies#0;n#project#0;n#!!top" expanded="true" />
+                <element signature="n#dependency#1;n#dependencies#0;n#project#0;n#!!top" expanded="true" />
+                <element signature="n#dependency#2;n#dependencies#0;n#project#0;n#!!top" expanded="true" />
+                <element signature="n#dependency#4;n#dependencies#0;n#project#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/rf/rf-utils/pom.xml">
+          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="14" column="23" lean-forward="true" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
+              <folding>
+                <element signature="n#parent#0;n#project#0;n#!!top" expanded="true" />
+                <element signature="n#dependencies#0;n#project#0;n#!!top" expanded="true" />
+                <element signature="n#dependency#10;n#dependencies#0;n#project#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/rf/rf-boot/pom.xml">
+          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="324">
+              <caret line="9" column="35" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>parameterAnalysisChain</find>
+      <find>init</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/stxd/stxd-boot/src/main/java/com/lucky/boot/conf/YamlParsing.java" />
+        <option value="$PROJECT_DIR$/stxd/stxd-framework/pom.xml" />
+        <option value="$PROJECT_DIR$/rf/rf-boot/pom.xml" />
+        <option value="$PROJECT_DIR$/rf/rf-framework/pom.xml" />
+        <option value="$PROJECT_DIR$/rf/rf-junit/pom.xml" />
+        <option value="$PROJECT_DIR$/rf/rf-parent/pom.xml" />
+        <option value="$PROJECT_DIR$/rf/pom.xml" />
+        <option value="$PROJECT_DIR$/rf/rf-aop/pom.xml" />
+        <option value="$PROJECT_DIR$/rf/rf-web/pom.xml" />
+        <option value="$PROJECT_DIR$/rf/rf-utils/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="E:\backup\repository" />
+        <option name="mavenHome" value="E:/backup/apache-maven-3.6.1" />
+        <option name="userSettingsFile" value="E:\backup\apache-maven-3.6.1\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="rf-aop" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="rf-aop" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="rf-framework" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="rf-framework" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="rf-parent" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="rf-parent" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="rf-utils" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="rf-utils" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="rf-web" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="rf-web" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/compiler.xml" />
+        <option value="$PROJECT_DIR$/.idea/misc.xml" />
+        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+        <option value="$PROJECT_DIR$/.idea/encodings.xml" />
+        <option value="$PROJECT_DIR$/.idea/modules.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__cglib_cglib_nodep_3_3_0.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_8_5.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__com_thoughtworks_xstream_xstream_1_4_11_1.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_15.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__commons_fileupload_commons_fileupload_1_3_3.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_4.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_13_3.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_core_2_13_3.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_slf4j_impl_2_13_3.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_annotations_api_6_0_53.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_36.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_9_0_36.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_jasper_9_0_36.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_9_0_36.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_tomcat_annotations_api_9_0_36.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_dom4j_dom4j_2_1_3.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jdt_ecj_3_18_0.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_gandon_tomcat_juli_to_slf4j_1_1_1.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_8_0_1.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_25.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_27.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__xmlpull_xmlpull_1_1_3_1.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__xpp3_xpp3_min_1_1_4c.xml" />
+        <option value="$PROJECT_DIR$/.idea/junitgenerator-prj-settings.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__com_czx_stxd_framework_1_0_SNAPSHOT.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__com_czx_stxd_framework_1_0_SNAPSHOT.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__com_czx_rf_utils_1_0_SNAPSHOT.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__com_czx_stxd_aop_1_0_SNAPSHOT.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_1_3.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_javax_servlet_api_4_0_1.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_9.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_text_1_8.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_3_6.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_3_3.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpmime_4_3_6.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_0.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_7_0.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_6_2.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_params_5_6_2.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_7_0.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_6_2.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_launcher_1_6_2.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_runner_1_6_2.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_suite_api_1_6_2.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_vintage_junit_vintage_engine_5_6_2.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="base_framework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="base_framework" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="base_framework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="base_framework" type="462c0819:PsiDirectoryNode" />
+              <item name="rf" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="base_framework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="base_framework" type="462c0819:PsiDirectoryNode" />
+              <item name="rf" type="462c0819:PsiDirectoryNode" />
+              <item name="rf-aop" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="base_framework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="base_framework" type="462c0819:PsiDirectoryNode" />
+              <item name="rf" type="462c0819:PsiDirectoryNode" />
+              <item name="rf-framework" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="base_framework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="base_framework" type="462c0819:PsiDirectoryNode" />
+              <item name="rf" type="462c0819:PsiDirectoryNode" />
+              <item name="rf-utils" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="base_framework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="base_framework" type="462c0819:PsiDirectoryNode" />
+              <item name="rf" type="462c0819:PsiDirectoryNode" />
+              <item name="rf-web" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="yiiguxing.plugin.translate" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <module name="rf" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
+      <module name="rf" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="StructureViewFactory">
+    <option name="AUTOSCROLL_FROM_SOURCE" value="true" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\Administrator\AppData\Roaming\Subversion</configuration>
+    <option name="runUnderTerminal" value="true" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="252cff70-6833-46c2-adc8-2345a11fa991" name="Default Changelist" comment="" />
+      <created>1609296998291</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1609296998291</updated>
+      <workItem from="1609296999937" duration="8383000" />
+      <workItem from="1609720647217" duration="36320000" />
+      <workItem from="1611916567839" duration="3865000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="48568000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.3342246" visible="true" weight="0.2306867" />
+      <window_info id="Structure" order="1" sideWeight="0.6657754" side_tool="true" weight="0.25375536" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" sideWeight="0.50082916" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.28031147" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Docker" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Anonymous Apex" order="10" />
+      <window_info anchor="bottom" id="Log Analyzer" order="11" />
+      <window_info anchor="bottom" id="Database Changes" order="12" />
+      <window_info anchor="bottom" id="Version Control" order="13" weight="0.23359288" />
+      <window_info anchor="bottom" id="SOQL Query" order="14" />
+      <window_info anchor="bottom" id="Tail" order="15" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" visible="true" weight="0.27414164" />
+      <window_info anchor="right" id="Palette&#9;" order="4" />
+      <window_info anchor="right" id="Palette" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Word Book" order="7" side_tool="true" />
+      <window_info anchor="right" id="Database" order="8" />
+      <window_info anchor="right" id="Theme Preview" order="9" />
+      <window_info anchor="right" id="RestServices" order="10" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/stxd/rf-junit/src/main/java/com/lucky/junit/core/LuckyJUnit4ClassRunner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="26" selection-start-line="26" selection-end-line="35" />
+          <folding>
+            <element signature="initializer##0;class#LuckyJUnit4ClassRunner#0" expanded="true" />
+            <element signature="method#LuckyJUnit4ClassRunner#0;class#LuckyJUnit4ClassRunner#0" expanded="true" />
+            <element signature="method#createTest#0;class#LuckyJUnit4ClassRunner#0" expanded="true" />
+            <element signature="method#runChild#0;class#LuckyJUnit4ClassRunner#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stxd/rf-junit/src/main/java/com/lucky/junit/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stxd/rf-junit/src/main/java/com/lucky/junit/core/LuckyExtension.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="52" column="41" lean-forward="true" selection-start-line="52" selection-start-column="12" selection-end-line="52" selection-end-column="54" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="initializer##0;class#LuckyExtension#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stxd/rf-framework/src/main/java/com/lucky/framework/scan/ScanFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="15" column="26" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stxd/rf-framework/src/main/java/com/lucky/framework/scan/PackageScan.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="556">
+          <caret line="32" column="59" selection-start-line="32" selection-start-column="52" selection-end-line="32" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stxd/rf-framework/src/main/java/com/lucky/framework/scan/Scan.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="314">
+          <caret line="96" selection-start-line="96" selection-end-line="100" selection-end-column="8" />
+          <folding>
+            <element signature="docComment;field#exclusions#0;class#Scan#0" expanded="true" />
+            <element signature="docComment;field#componentClass#0;class#Scan#0" expanded="true" />
+            <element signature="method#getComponentClass#0;class#Scan#0" expanded="true" />
+            <element signature="e#1301#1302#0" expanded="true" />
+            <element signature="e#1331#1332#0" expanded="true" />
+            <element signature="method#Scan#0;class#Scan#0" expanded="true" />
+            <element signature="method#initExclusions#0;class#Scan#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stxd/rf-web/src/main/java/com/lucky/web/mapping/Mapping.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78">
+          <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stxd/rf-web/src/main/java/com/lucky/web/mapping/UrlMapping.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="31" column="34" selection-start-line="31" selection-start-column="34" selection-end-line="31" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stxd/rf-web/src/main/java/com/lucky/web/mapping/UrlMappingCollection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="38" column="19" lean-forward="true" selection-start-line="38" selection-start-column="19" selection-end-line="38" selection-end-column="19" />
+          <folding>
+            <element signature="docComment;field#expandMap#0;class#UrlMappingCollection#0" expanded="true" />
+            <element signature="docComment;field#deleteExpand#0;class#UrlMappingCollection#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stxd/rf-boot/src/main/java/com/lucky/boot/web/ListenerMapping.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stxd/rf-boot/src/main/java/com/lucky/boot/web/FilterMapping.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="9" selection-start-line="9" selection-end-line="9" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stxd/rf-framework/src/main/java/com/lucky/framework/container/factory/Destroy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" column="9" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stxd/rf-framework/src/main/java/com/lucky/framework/AutoScanApplicationContext.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="24" column="60" selection-start-line="24" selection-start-column="60" selection-end-line="24" selection-end-column="60" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="initializer##0;class#AutoScanApplicationContext#0" expanded="true" />
+            <element signature="method#create#0;class#AutoScanApplicationContext#0" expanded="true" />
+            <element signature="method#create#1;class#AutoScanApplicationContext#0" expanded="true" />
+            <element signature="method#AutoScanApplicationContext#1;class#AutoScanApplicationContext#0" expanded="true" />
+            <element signature="method#init#0;class#AutoScanApplicationContext#0" expanded="true" />
+            <element signature="method#getClasses#0;class#AutoScanApplicationContext#0" expanded="true" />
+            <element signature="e#4916#4917#0" expanded="true" />
+            <element signature="e#4987#4988#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stxd/rf-framework/src/main/java/com/lucky/framework/ApplicationContext.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stxd/rf-boot/src/main/java/com/lucky/boot/startup/EmbeddedTomcat.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="20" column="24" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
+          <folding>
+            <element signature="method#EmbeddedTomcat#0;class#EmbeddedTomcat#0" expanded="true" />
+            <element signature="method#run#0;class#EmbeddedTomcat#0" expanded="true" />
+            <element signature="method#conf#0;class#EmbeddedTomcat#0" expanded="true" />
+            <element signature="method#start#0;class#EmbeddedTomcat#0" expanded="true" />
+            <element signature="docComment;method#tomcatConf#0;class#EmbeddedTomcat#0" expanded="true" />
+            <element signature="method#tomcatConf#0;class#EmbeddedTomcat#0" expanded="true" />
+            <element signature="method#contextConf#0;class#EmbeddedTomcat#0" expanded="true" />
+            <element signature="method#init#0;class#EmbeddedTomcat#0" expanded="true" />
+            <element signature="method#doShutDownWork#0;class#EmbeddedTomcat#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stxd/rf-boot/src/main/java/com/lucky/boot/startup/LuckyApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="41" column="63" selection-start-line="41" selection-start-column="63" selection-end-line="41" selection-end-column="63" />
+          <folding>
+            <element signature="initializer##0;class#LuckyApplication#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stxd/rf-framework/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="39" column="17" selection-start-line="39" selection-start-column="17" selection-end-line="39" selection-end-column="17" />
+          <folding>
+            <element signature="n#plugin#0;n#plugins#0;n#build#0;n#project#0;n#!!top" expanded="true" />
+            <element signature="n#plugin#2;n#plugins#0;n#build#0;n#project#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stxd/rf-parent/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="166" column="25" selection-start-line="166" selection-start-column="25" selection-end-line="166" selection-end-column="25" />
+          <folding>
+            <element signature="n#properties#0;n#project#0;n#!!top" expanded="true" />
+            <element signature="n#dependencies#0;n#project#0;n#!!top" expanded="true" />
+            <element signature="n#dependency#0;n#dependencies#0;n#project#0;n#!!top" expanded="true" />
+            <element signature="n#dependency#1;n#dependencies#0;n#project#0;n#!!top" expanded="true" />
+            <element signature="n#dependency#2;n#dependencies#0;n#project#0;n#!!top" expanded="true" />
+            <element signature="n#dependencies#0;n#dependencyManagement#0;n#project#0;n#!!top" expanded="true" />
+            <element signature="n#dependency#0;n#dependencies#0;n#dependencyManagement#0;n#project#0;n#!!top" expanded="true" />
+            <element signature="n#dependency#1;n#dependencies#0;n#dependencyManagement#0;n#project#0;n#!!top" expanded="true" />
+            <element signature="n#executions#0;n#plugin#4;n#plugins#0;n#pluginManagement#0;n#build#0;n#project#0;n#!!top" expanded="true" />
+            <element signature="n#execution#0;n#executions#0;n#plugin#4;n#plugins#0;n#pluginManagement#0;n#build#0;n#project#0;n#!!top" expanded="true" />
+            <element signature="n#goals#0;n#execution#0;n#executions#0;n#plugin#4;n#plugins#0;n#pluginManagement#0;n#build#0;n#project#0;n#!!top" expanded="true" />
+            <element signature="n#configuration#0;n#plugin#4;n#plugins#0;n#pluginManagement#0;n#build#0;n#project#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stxd/rf-web/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="52" column="21" selection-start-line="52" selection-start-column="21" selection-end-line="52" selection-end-column="21" />
+          <folding>
+            <element signature="n#plugin#0;n#plugins#0;n#build#0;n#project#0;n#!!top" expanded="true" />
+            <element signature="n#plugin#1;n#plugins#0;n#build#0;n#project#0;n#!!top" expanded="true" />
+            <element signature="n#plugin#2;n#plugins#0;n#build#0;n#project#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stxd/rf-boot/src/main/java/com/lucky/boot/startup/LuckyServerApplicationConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="10" column="47" selection-start-line="10" selection-start-column="47" selection-end-line="10" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stxd/rf-boot/src/main/java/com/lucky/boot/startup/ServletContainerInitializerController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-60">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stxd/rf-boot/src/main/java/com/lucky/boot/startup/RunParam.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="282">
+          <caret line="31" column="63" selection-start-line="31" selection-start-column="63" selection-end-line="31" selection-end-column="63" />
+          <folding>
+            <element signature="initializer##0;class#RunParam#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stxd/rf-boot/src/main/java/com/lucky/boot/stopup/LuckyShutdown.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="13" column="79" lean-forward="true" selection-start-line="13" selection-start-column="79" selection-end-line="13" selection-end-column="79" />
+          <folding>
+            <element signature="method#shutdown#0;class#LuckyShutdown#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stxd/rf-boot/src/main/java/com/lucky/boot/conf/WrongWebComponentTypeException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stxd/rf-boot/src/main/java/com/lucky/boot/conf/YamlParsing.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="89" column="38" selection-start-line="89" selection-start-column="38" selection-end-line="89" selection-end-column="38" />
+          <folding>
+            <element signature="method#loadServer#0;class#YamlParsing#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stxd/rf-boot/src/main/java/com/lucky/boot/web/ServletMapping.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="4" column="40" selection-start-line="4" selection-start-column="40" selection-end-line="4" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stxd/rf-boot/src/main/java/com/lucky/boot/web/WebMapping.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="12">
+          <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stxd/rf-boot/src/main/java/com/lucky/boot/conf/ServerConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4392">
+          <caret line="337" column="25" selection-start-line="337" selection-start-column="25" selection-end-line="337" selection-end-column="25" />
+          <folding>
+            <element signature="e#917#926#0" expanded="true" />
+            <element signature="e#963#979#0" expanded="true" />
+            <element signature="e#1016#1089#0" expanded="true" />
+            <element signature="e#1126#1205#0" expanded="true" />
+            <element signature="e#1242#1254#0" expanded="true" />
+            <element signature="e#1290#1299#0" expanded="true" />
+            <element signature="e#2573#2574#0" expanded="true" />
+            <element signature="e#2607#2608#0" expanded="true" />
+            <element signature="e#3836#3947#0" expanded="true" />
+            <element signature="e#5307#5455#0" expanded="true" />
+            <element signature="e#5512#5513#0" expanded="true" />
+            <element signature="e#5557#5558#0" expanded="true" />
+            <element signature="e#5672#6301#0" expanded="true" />
+            <element signature="e#6307#6542#0" expanded="true" />
+            <element signature="e#6548#6734#0" expanded="true" />
+            <element signature="e#6740#7499#0" expanded="true" />
+            <element signature="e#7505#7943#0" expanded="true" />
+            <element signature="e#7949#9287#0" expanded="true" />
+            <element signature="e#9293#9710#0" expanded="true" />
+            <element signature="e#9716#10982#0" expanded="true" />
+            <element signature="e#10988#11210#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stxd/rf-boot/src/main/java/com/lucky/boot/startup/LuckyBootServletContainerInitializer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="27" column="92" selection-start-line="27" selection-start-column="92" selection-end-line="27" selection-end-column="92" />
+          <folding>
+            <element signature="method#LuckyBootServletContainerInitializer#0;class#LuckyBootServletContainerInitializer#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stxd/rf-web/src/main/java/com/lucky/web/initializer/LuckyDispatcherServletInitializer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <element signature="method#onStartup#0;class#LuckyDispatcherServletInitializer#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stxd/rf-web/src/main/resources/META-INF/lucky.factories">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stxd/rf-web/src/main/java/com/lucky/web/initializer/WebApplicationInitializer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="12" column="33" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stxd/rf-web/src/main/resources/META-INF/services/javax.servlet.ServletContainerInitializer">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="41" selection-start-column="41" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stxd/rf-web/src/main/java/com/lucky/web/initializer/LuckyServletContainerInitializer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+          <folding>
+            <element signature="method#onStartup#0;class#LuckyServletContainerInitializer#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stxd/rf-boot/src/main/resources/META-INF/services/javax.servlet.ServletContainerInitializer">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stxd/rf-framework/src/main/java/com/lucky/framework/confanalysis/LuckyConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+          <folding>
+            <element signature="e#208#209#0" expanded="true" />
+            <element signature="e#238#239#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stxd/rf-web/src/main/java/com/lucky/web/servlet/BaseServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="536">
+          <caret line="171" column="28" selection-start-line="171" selection-start-column="28" selection-end-line="171" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#getParameterAnalysisChain#0;class#BaseServlet#0" expanded="true" />
+            <element signature="method#beforeDispose#0;class#BaseServlet#0" expanded="true" />
+            <element signature="method#init#0;class#BaseServlet#0" expanded="true" />
+            <element signature="method#doGet#0;class#BaseServlet#0" expanded="true" />
+            <element signature="method#doHead#0;class#BaseServlet#0" expanded="true" />
+            <element signature="method#doPost#0;class#BaseServlet#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stxd/rf-web/src/main/java/com/lucky/web/servlet/LuckyDispatcherServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="430">
+          <caret line="34" column="47" selection-start-line="34" selection-start-column="47" selection-end-line="34" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stxd/rf-web/src/main/java/com/lucky/web/conf/WebConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="492">
+          <caret line="64" column="34" selection-start-line="64" selection-start-column="34" selection-end-line="64" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stxd/rf-web/src/main/resources/lucky-web/404.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="254" column="33" lean-forward="true" selection-start-line="254" selection-start-column="33" selection-end-line="254" selection-end-column="33" />
+          <folding>
+            <element signature="n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#script#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stxd/rf-web/src/main/java/com/lucky/web/error/ErrorPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="163">
+          <caret line="27" column="20" selection-start-line="27" selection-start-column="20" selection-end-line="27" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stxd/rf-web/src/main/resources/lucky-web/500.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="217" selection-end-column="7" />
+          <folding>
+            <element signature="n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stxd/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rf/rf-boot/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="9" column="35" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rf/rf-parent/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="397">
+          <caret line="46" column="21" selection-start-line="46" selection-start-column="21" selection-end-line="46" selection-end-column="21" />
+          <folding>
+            <element signature="n#parent#0;n#project#0;n#!!top" expanded="true" />
+            <element signature="n#properties#0;n#project#0;n#!!top" expanded="true" />
+            <element signature="n#dependency#0;n#dependencies#0;n#project#0;n#!!top" expanded="true" />
+            <element signature="n#dependency#1;n#dependencies#0;n#project#0;n#!!top" expanded="true" />
+            <element signature="n#dependency#2;n#dependencies#0;n#project#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rf/rf-junit/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-233">
+          <caret line="35" column="33" selection-start-line="35" selection-start-column="33" selection-end-line="35" selection-end-column="33" />
+          <folding>
+            <element signature="n#parent#0;n#project#0;n#!!top" expanded="true" />
+            <element signature="n#dependency#0;n#dependencies#0;n#project#0;n#!!top" expanded="true" />
+            <element signature="n#dependency#1;n#dependencies#0;n#project#0;n#!!top" expanded="true" />
+            <element signature="n#dependency#2;n#dependencies#0;n#project#0;n#!!top" expanded="true" />
+            <element signature="n#dependency#4;n#dependencies#0;n#project#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rf/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="4" column="38" selection-start-line="4" selection-start-column="38" selection-end-line="4" selection-end-column="38" />
+          <folding>
+            <element signature="n#modules#0;n#project#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rf/rf-aop/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="21" column="29" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
+          <folding>
+            <element signature="n#parent#0;n#project#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rf/rf-web/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="38" column="19" selection-start-line="38" selection-start-column="19" selection-end-line="38" selection-end-column="19" />
+          <folding>
+            <element signature="n#parent#0;n#project#0;n#!!top" expanded="true" />
+            <element signature="n#dependency#0;n#dependencies#0;n#project#0;n#!!top" expanded="true" />
+            <element signature="n#dependency#3;n#dependencies#0;n#project#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rf/rf-framework/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-420">
+          <caret line="7" column="33" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
+          <folding>
+            <element signature="n#dependencies#0;n#project#0;n#!!top" expanded="true" />
+            <element signature="n#dependency#0;n#dependencies#0;n#project#0;n#!!top" expanded="true" />
+            <element signature="n#dependency#1;n#dependencies#0;n#project#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rf/rf-utils/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="23" lean-forward="true" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
+          <folding>
+            <element signature="n#parent#0;n#project#0;n#!!top" expanded="true" />
+            <element signature="n#dependencies#0;n#project#0;n#!!top" expanded="true" />
+            <element signature="n#dependency#10;n#dependencies#0;n#project#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>base_framework</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

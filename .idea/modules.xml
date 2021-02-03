@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/base_framework.iml" filepath="$PROJECT_DIR$/.idea/base_framework.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rf/rf.iml" filepath="$PROJECT_DIR$/rf/rf.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rf/rf-aop/stxd-aop.iml" filepath="$PROJECT_DIR$/rf/rf-aop/stxd-aop.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rf/rf-boot/stxd-boot.iml" filepath="$PROJECT_DIR$/rf/rf-boot/stxd-boot.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rf/rf-framework/rf-framework.iml" filepath="$PROJECT_DIR$/rf/rf-framework/rf-framework.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rf/rf-junit/rf-junit.iml" filepath="$PROJECT_DIR$/rf/rf-junit/rf-junit.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rf/rf-parent/rf-parent.iml" filepath="$PROJECT_DIR$/rf/rf-parent/rf-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rf/rf-utils/stxd-utils.iml" filepath="$PROJECT_DIR$/rf/rf-utils/stxd-utils.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rf/rf-web/rf-web.iml" filepath="$PROJECT_DIR$/rf/rf-web/rf-web.iml" />
+    </modules>
+  </component>
+</project>
