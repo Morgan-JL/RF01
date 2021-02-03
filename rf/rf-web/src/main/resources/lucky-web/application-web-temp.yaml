@@ -25,21 +25,21 @@ lucky:
       xml : com.lucky.framework.serializable.implement.XtreamSerializationScheme
       json: com.lucky.framework.serializable.implement.GsonSerializationScheme
     #重新定义转发与重定向
-    response: com.lucky.web.core.DefaultLuckyResponse
+    response: DefaultLuckyResponse
     ###映射的预处理器
     #1.处理URL、请求类型和Web上下文的设置
     #2.处理Controller的属性和跨域问题
     #3.请求处理结束后的操作
-    mapping-preprocess: com.lucky.web.core.DefaultMappingPreprocess
+    mapping-preprocess: DefaultMappingPreprocess
     ##添加Controller参数解析器
-    ##自定义的参数解析器需要实现接口「com.lucky.web.core.parameter.analysis.ParameterAnalysis」
+    ##自定义的参数解析器需要实现接口「ParameterAnalysis」
     parameter-analysis-chain-add:
-      - com.lucky.web.core.parameter.analysis.ParameterAnalysis
+      - ParameterAnalysis
       - com.lucky.web.core.parameter.ImplParameterAnalysis
     ##对参数进行二次加工，如校验、加密，子类可继承
-    ##「com.lucky.web.core.parameter.enhance.ParameterEnhance」来扩展自定义的处理逻辑
+    ##「ParameterEnhance」来扩展自定义的处理逻辑
     parameter-enhance-chain-add:
-      - com.lucky.web.core.parameter.enhance.ParameterEnhance
+      - ParameterEnhance
       - com.lucky.web.core.parameter.ImplParameterEnhance
     #错误页面配置
     error-page:

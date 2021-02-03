@@ -1,8 +1,8 @@
 # @Configuration
 com.lucky.framework.annotation.Configuration=\
-com.lucky.web.beanfactory.LuckyWebAutoConfig
+LuckyWebAutoConfig
 
 # SpareComponents
 com.lucky.framework.scan.SpareComponents=\
-com.lucky.web.initializer.LuckyDispatcherServletInitializer
+LuckyDispatcherServletInitializer
 

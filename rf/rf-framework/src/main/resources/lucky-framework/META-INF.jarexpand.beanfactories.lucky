@@ -1,5 +1,5 @@
 ##Web
-com.lucky.web.beanfactory.LuckyWebBeanFactory:REPLACE
+LuckyWebBeanFactory:REPLACE
 
 ##Quartz
 com.lucky.quartz.beanfactory.LuckyQuartzBeanFactory:REPLACE
