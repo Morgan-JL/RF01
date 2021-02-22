@@ -4,8 +4,8 @@ import com.fs.boot.web.FilterMapping;
 import com.fs.boot.web.ListenerMapping;
 import com.fs.boot.conf.ServerConfig;
 import com.fs.boot.web.ServletMapping;
-import com.lucky.framework.AutoScanApplicationContext;
-import com.lucky.utils.base.Assert;
+import com.fs.framework.AutoScanApplicationContext;
+import com.fs.utils.base.Assert;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

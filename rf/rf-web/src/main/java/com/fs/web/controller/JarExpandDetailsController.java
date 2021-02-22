@@ -18,8 +18,6 @@ import com.fs.framework.scan.JarExpand;
 import com.fs.utils.base.Assert;
 import com.fs.utils.reflect.MethodUtils;
 import com.fs.utils.reflect.ParameterUtils;
-import com.lucky.web.annotation.*;
-import com.lucky.web.mapping.*;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

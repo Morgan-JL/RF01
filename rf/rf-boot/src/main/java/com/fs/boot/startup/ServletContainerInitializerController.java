@@ -1,7 +1,7 @@
 package com.fs.boot.startup;
 
-import com.lucky.framework.ApplicationContext;
 
+import com.fs.framework.ApplicationContext;
 import javax.servlet.ServletContainerInitializer;
 import javax.servlet.annotation.HandlesTypes;
 import java.util.*;

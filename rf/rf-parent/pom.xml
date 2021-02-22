@@ -92,19 +92,19 @@
 
             <dependency>
                 <groupId>com.czx</groupId>
-                <artifactId>stxd-utils</artifactId>
+                <artifactId>rf-utils</artifactId>
                 <version>${stxd.version}</version>
             </dependency>
 
             <dependency>
                 <groupId>com.czx</groupId>
-                <artifactId>stxd-boot</artifactId>
+                <artifactId>rf-boot</artifactId>
                 <version>${stxd.version}</version>
             </dependency>
 
             <dependency>
                 <groupId>com.czx</groupId>
-                <artifactId>stxd-web</artifactId>
+                <artifactId>rf-web</artifactId>
                 <version>${stxd.version}</version>
             </dependency>
 

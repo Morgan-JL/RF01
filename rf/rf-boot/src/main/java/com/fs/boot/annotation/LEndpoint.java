@@ -1,6 +1,6 @@
 package com.fs.boot.annotation;
 
-import com.lucky.framework.annotation.Component;
+import com.fs.framework.annotation.Component;
 
 import javax.websocket.Decoder;
 import javax.websocket.Encoder;
@@ -8,7 +8,7 @@ import javax.websocket.server.ServerEndpointConfig;
 import java.lang.annotation.*;
 
 /**
- * @author fk7075
+ * @author morgan
  * @version 1.0
  * @date 2020/9/15 18:11
  */

@@ -58,14 +58,14 @@
 
     <dependency>
       <groupId>com.czx</groupId>
-      <artifactId>stxd-framework</artifactId>
+      <artifactId>rf-framework</artifactId>
       <version>1.0-SNAPSHOT</version>
       <scope>provided</scope>
     </dependency>
 
     <dependency>
       <groupId>com.czx</groupId>
-      <artifactId>stxd-aop</artifactId>
+      <artifactId>rf-aop</artifactId>
       <version>1.0-SNAPSHOT</version>
       <scope>provided</scope>
     </dependency>

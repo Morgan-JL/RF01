@@ -12,7 +12,6 @@ import com.fs.framework.container.Module;
 import com.fs.utils.base.Assert;
 import com.fs.utils.reflect.AnnotationUtils;
 import com.fs.utils.reflect.ClassUtils;
-import com.lucky.web.annotation.*;
 
 import java.lang.annotation.Annotation;
 import java.lang.reflect.Method;
